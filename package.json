@@ -24,6 +24,7 @@
   "homepage": "https://github.com/wheelyumdev-test/sonar#readme",
   "dependencies": {
     "alert": "^5.0.10",
+    "debug": "^4.3.4",
     "request": "^2.88.2"
   }
 }
