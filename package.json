@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "security-hotspot": "node securityHotspot.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/wheelyumdev-test/sonar/issues"
   },
-  "homepage": "https://github.com/wheelyumdev-test/sonar#readme"
+  "homepage": "https://github.com/wheelyumdev-test/sonar#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
 }
