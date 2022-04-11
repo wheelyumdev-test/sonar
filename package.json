@@ -27,6 +27,7 @@
     "create-react-app": "^1.2.1",
     "debug": "^4.3.4",
     "dom-storage": "^2.1.0",
+    "execa": "^6.1.0",
     "localStorage": "^1.0.4",
     "request": "^2.88.2",
     "websql": "^2.0.3"
