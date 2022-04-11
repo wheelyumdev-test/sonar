@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/wheelyumdev-test/sonar#readme",
   "dependencies": {
+    "alert": "^5.0.10",
     "request": "^2.88.2"
   }
 }
