@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:vulnerability": "node ./vulnerability",
+    "test:bug": "node ./bug",
+    "test:security-hotspot": "node ./security-hotspot",
+    "test:code-smell": "node ./code-smell",
+    "zip": "mkdir -p ./zip && git archive --format zip --output ./zip/$(date +%s).zip main"
   },
   "repository": {
     "type": "git",
