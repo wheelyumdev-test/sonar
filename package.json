@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/wheelyumdev-test/sonar/issues"
   },
-  "homepage": "https://github.com/wheelyumdev-test/sonar#readme"
+  "homepage": "https://github.com/wheelyumdev-test/sonar#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
 }
